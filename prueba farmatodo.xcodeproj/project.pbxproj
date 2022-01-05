@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D4B310FC7BD3AA9BE2F1FE6 /* Pods_prueba_farmatodo_prueba_farmatodoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99077EF54816B89BD97061A4 /* Pods_prueba_farmatodo_prueba_farmatodoUITests.framework */; };
+		322403CF50D7834A8EAD664C /* Pods_prueba_farmatodoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EEECD6EE44EEB64C1D6B3EB /* Pods_prueba_farmatodoTests.framework */; };
+		9AD84B8D27839AAC00833BB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84B8C27839AAC00833BB1 /* AppDelegate.swift */; };
+		9AD84B8F27839AAC00833BB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84B8E27839AAC00833BB1 /* SceneDelegate.swift */; };
+		9AD84B9127839AAC00833BB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84B9027839AAC00833BB1 /* ViewController.swift */; };
+		9AD84B9627839AAF00833BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD84B9527839AAF00833BB1 /* Assets.xcassets */; };
+		9AD84B9927839AAF00833BB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD84B9727839AAF00833BB1 /* LaunchScreen.storyboard */; };
+		9AD84BA427839AAF00833BB1 /* prueba_farmatodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84BA327839AAF00833BB1 /* prueba_farmatodoTests.swift */; };
+		9AD84BAF27839AAF00833BB1 /* prueba_farmatodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84BAE27839AAF00833BB1 /* prueba_farmatodoUITests.swift */; };
+		9AD84BCF2784035F00833BB1 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84BC82784035F00833BB1 /* HomePresenter.swift */; };
+		9AD84BD02784035F00833BB1 /* HomeLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84BC92784035F00833BB1 /* HomeLocalDataManager.swift */; };
+		9AD84BD12784035F00833BB1 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84BCA2784035F00833BB1 /* HomeProtocols.swift */; };
+		9AD84BD22784035F00833BB1 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84BCB2784035F00833BB1 /* HomeInteractor.swift */; };
+		9AD84BD32784035F00833BB1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84BCC2784035F00833BB1 /* HomeView.swift */; };
+		9AD84BD42784035F00833BB1 /* HomeRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84BCD2784035F00833BB1 /* HomeRemoteDataManager.swift */; };
+		9AD84BD52784035F00833BB1 /* HomeWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84BCE2784035F00833BB1 /* HomeWireFrame.swift */; };
+		9AD84BDB278403FC00833BB1 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD84BDA278403FC00833BB1 /* HomeView.storyboard */; };
+		9AD84BE927849B7B00833BB1 /* AnimeURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84BE827849B7B00833BB1 /* AnimeURL.swift */; };
+		9AD84BEE27849B9700833BB1 /* DatoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84BED27849B9700833BB1 /* DatoURL.swift */; };
+		9AD84BFF2784FE8600833BB1 /* TopViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84BFE2784FE8600833BB1 /* TopViewCell.swift */; };
+		9AD84C042785021100833BB1 /* HomeHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84C032785021100833BB1 /* HomeHelpers.swift */; };
+		E0EB9C0CFDABD6092F9DC486 /* Pods_prueba_farmatodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E0ED4B5FCA0DAEF70B03F1 /* Pods_prueba_farmatodo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AD84BA027839AAF00833BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AD84B8127839AAC00833BB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD84B8827839AAC00833BB1;
+			remoteInfo = "prueba farmatodo";
+		};
+		9AD84BAB27839AAF00833BB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AD84B8127839AAC00833BB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD84B8827839AAC00833BB1;
+			remoteInfo = "prueba farmatodo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24EB4D0A2C2551D52281CCFA /* Pods-prueba farmatodo-prueba farmatodoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba farmatodo-prueba farmatodoUITests.release.xcconfig"; path = "Target Support Files/Pods-prueba farmatodo-prueba farmatodoUITests/Pods-prueba farmatodo-prueba farmatodoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2EEECD6EE44EEB64C1D6B3EB /* Pods_prueba_farmatodoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_prueba_farmatodoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		727780679A70B06896C34BA7 /* Pods-prueba farmatodo-prueba farmatodoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba farmatodo-prueba farmatodoUITests.debug.xcconfig"; path = "Target Support Files/Pods-prueba farmatodo-prueba farmatodoUITests/Pods-prueba farmatodo-prueba farmatodoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		859EFB61CE337CBFF9562CE3 /* Pods-prueba farmatodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba farmatodo.debug.xcconfig"; path = "Target Support Files/Pods-prueba farmatodo/Pods-prueba farmatodo.debug.xcconfig"; sourceTree = "<group>"; };
+		99077EF54816B89BD97061A4 /* Pods_prueba_farmatodo_prueba_farmatodoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_prueba_farmatodo_prueba_farmatodoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD84B8927839AAC00833BB1 /* prueba farmatodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prueba farmatodo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD84B8C27839AAC00833BB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AD84B8E27839AAC00833BB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9AD84B9027839AAC00833BB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AD84B9527839AAF00833BB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AD84B9827839AAF00833BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AD84B9A27839AAF00833BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD84B9F27839AAF00833BB1 /* prueba farmatodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "prueba farmatodoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD84BA327839AAF00833BB1 /* prueba_farmatodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prueba_farmatodoTests.swift; sourceTree = "<group>"; };
+		9AD84BA527839AAF00833BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD84BAA27839AAF00833BB1 /* prueba farmatodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "prueba farmatodoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD84BAE27839AAF00833BB1 /* prueba_farmatodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prueba_farmatodoUITests.swift; sourceTree = "<group>"; };
+		9AD84BB027839AAF00833BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD84BC82784035F00833BB1 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		9AD84BC92784035F00833BB1 /* HomeLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocalDataManager.swift; sourceTree = "<group>"; };
+		9AD84BCA2784035F00833BB1 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		9AD84BCB2784035F00833BB1 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		9AD84BCC2784035F00833BB1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9AD84BCD2784035F00833BB1 /* HomeRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRemoteDataManager.swift; sourceTree = "<group>"; };
+		9AD84BCE2784035F00833BB1 /* HomeWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireFrame.swift; sourceTree = "<group>"; };
+		9AD84BDA278403FC00833BB1 /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
+		9AD84BE827849B7B00833BB1 /* AnimeURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeURL.swift; sourceTree = "<group>"; };
+		9AD84BED27849B9700833BB1 /* DatoURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatoURL.swift; sourceTree = "<group>"; };
+		9AD84BFE2784FE8600833BB1 /* TopViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewCell.swift; sourceTree = "<group>"; };
+		9AD84C032785021100833BB1 /* HomeHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHelpers.swift; sourceTree = "<group>"; };
+		AD25428DA27520B66A6F9BFD /* Pods-prueba farmatodoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba farmatodoTests.release.xcconfig"; path = "Target Support Files/Pods-prueba farmatodoTests/Pods-prueba farmatodoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8E0ED4B5FCA0DAEF70B03F1 /* Pods_prueba_farmatodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_prueba_farmatodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2385C3BB21E09ADEACFD8DF /* Pods-prueba farmatodoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba farmatodoTests.debug.xcconfig"; path = "Target Support Files/Pods-prueba farmatodoTests/Pods-prueba farmatodoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4B03D4199D2B052FBC72B5F /* Pods-prueba farmatodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba farmatodo.release.xcconfig"; path = "Target Support Files/Pods-prueba farmatodo/Pods-prueba farmatodo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AD84B8627839AAC00833BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0EB9C0CFDABD6092F9DC486 /* Pods_prueba_farmatodo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD84B9C27839AAF00833BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322403CF50D7834A8EAD664C /* Pods_prueba_farmatodoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD84BA727839AAF00833BB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4B310FC7BD3AA9BE2F1FE6 /* Pods_prueba_farmatodo_prueba_farmatodoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09E94CB327D88BB9B43C3A3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				859EFB61CE337CBFF9562CE3 /* Pods-prueba farmatodo.debug.xcconfig */,
+				E4B03D4199D2B052FBC72B5F /* Pods-prueba farmatodo.release.xcconfig */,
+				727780679A70B06896C34BA7 /* Pods-prueba farmatodo-prueba farmatodoUITests.debug.xcconfig */,
+				24EB4D0A2C2551D52281CCFA /* Pods-prueba farmatodo-prueba farmatodoUITests.release.xcconfig */,
+				E2385C3BB21E09ADEACFD8DF /* Pods-prueba farmatodoTests.debug.xcconfig */,
+				AD25428DA27520B66A6F9BFD /* Pods-prueba farmatodoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9AD84B8027839AAC00833BB1 = {
+			isa = PBXGroup;
+			children = (
+				9AD84B8B27839AAC00833BB1 /* prueba farmatodo */,
+				9AD84BA227839AAF00833BB1 /* prueba farmatodoTests */,
+				9AD84BAD27839AAF00833BB1 /* prueba farmatodoUITests */,
+				9AD84B8A27839AAC00833BB1 /* Products */,
+				09E94CB327D88BB9B43C3A3D /* Pods */,
+				C752B08ED559192BAE9BE67E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AD84B8A27839AAC00833BB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AD84B8927839AAC00833BB1 /* prueba farmatodo.app */,
+				9AD84B9F27839AAF00833BB1 /* prueba farmatodoTests.xctest */,
+				9AD84BAA27839AAF00833BB1 /* prueba farmatodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AD84B8B27839AAC00833BB1 /* prueba farmatodo */ = {
+			isa = PBXGroup;
+			children = (
+				9AD84BD9278403CC00833BB1 /* HomeView */,
+				9AD84B8C27839AAC00833BB1 /* AppDelegate.swift */,
+				9AD84B8E27839AAC00833BB1 /* SceneDelegate.swift */,
+				9AD84B9027839AAC00833BB1 /* ViewController.swift */,
+				9AD84B9527839AAF00833BB1 /* Assets.xcassets */,
+				9AD84B9727839AAF00833BB1 /* LaunchScreen.storyboard */,
+				9AD84B9A27839AAF00833BB1 /* Info.plist */,
+			);
+			path = "prueba farmatodo";
+			sourceTree = "<group>";
+		};
+		9AD84BA227839AAF00833BB1 /* prueba farmatodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AD84BA327839AAF00833BB1 /* prueba_farmatodoTests.swift */,
+				9AD84BA527839AAF00833BB1 /* Info.plist */,
+			);
+			path = "prueba farmatodoTests";
+			sourceTree = "<group>";
+		};
+		9AD84BAD27839AAF00833BB1 /* prueba farmatodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AD84BAE27839AAF00833BB1 /* prueba_farmatodoUITests.swift */,
+				9AD84BB027839AAF00833BB1 /* Info.plist */,
+			);
+			path = "prueba farmatodoUITests";
+			sourceTree = "<group>";
+		};
+		9AD84BD9278403CC00833BB1 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				9AD84BC82784035F00833BB1 /* HomePresenter.swift */,
+				9AD84BC92784035F00833BB1 /* HomeLocalDataManager.swift */,
+				9AD84BCA2784035F00833BB1 /* HomeProtocols.swift */,
+				9AD84BCB2784035F00833BB1 /* HomeInteractor.swift */,
+				9AD84BCC2784035F00833BB1 /* HomeView.swift */,
+				9AD84BCD2784035F00833BB1 /* HomeRemoteDataManager.swift */,
+				9AD84BCE2784035F00833BB1 /* HomeWireFrame.swift */,
+				9AD84BDA278403FC00833BB1 /* HomeView.storyboard */,
+				9AD84BE827849B7B00833BB1 /* AnimeURL.swift */,
+				9AD84BED27849B9700833BB1 /* DatoURL.swift */,
+				9AD84BFE2784FE8600833BB1 /* TopViewCell.swift */,
+				9AD84C032785021100833BB1 /* HomeHelpers.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		C752B08ED559192BAE9BE67E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8E0ED4B5FCA0DAEF70B03F1 /* Pods_prueba_farmatodo.framework */,
+				99077EF54816B89BD97061A4 /* Pods_prueba_farmatodo_prueba_farmatodoUITests.framework */,
+				2EEECD6EE44EEB64C1D6B3EB /* Pods_prueba_farmatodoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AD84B8827839AAC00833BB1 /* prueba farmatodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD84BB327839AAF00833BB1 /* Build configuration list for PBXNativeTarget "prueba farmatodo" */;
+			buildPhases = (
+				AECAFC22D0D006D6A4A67F2E /* [CP] Check Pods Manifest.lock */,
+				9AD84B8527839AAC00833BB1 /* Sources */,
+				9AD84B8627839AAC00833BB1 /* Frameworks */,
+				9AD84B8727839AAC00833BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "prueba farmatodo";
+			productName = "prueba farmatodo";
+			productReference = 9AD84B8927839AAC00833BB1 /* prueba farmatodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AD84B9E27839AAF00833BB1 /* prueba farmatodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD84BB627839AAF00833BB1 /* Build configuration list for PBXNativeTarget "prueba farmatodoTests" */;
+			buildPhases = (
+				2FE6DFA117916E9F736C391B /* [CP] Check Pods Manifest.lock */,
+				9AD84B9B27839AAF00833BB1 /* Sources */,
+				9AD84B9C27839AAF00833BB1 /* Frameworks */,
+				9AD84B9D27839AAF00833BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD84BA127839AAF00833BB1 /* PBXTargetDependency */,
+			);
+			name = "prueba farmatodoTests";
+			productName = "prueba farmatodoTests";
+			productReference = 9AD84B9F27839AAF00833BB1 /* prueba farmatodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AD84BA927839AAF00833BB1 /* prueba farmatodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD84BB927839AAF00833BB1 /* Build configuration list for PBXNativeTarget "prueba farmatodoUITests" */;
+			buildPhases = (
+				74DD24EC4F23442074EE4416 /* [CP] Check Pods Manifest.lock */,
+				9AD84BA627839AAF00833BB1 /* Sources */,
+				9AD84BA727839AAF00833BB1 /* Frameworks */,
+				9AD84BA827839AAF00833BB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD84BAC27839AAF00833BB1 /* PBXTargetDependency */,
+			);
+			name = "prueba farmatodoUITests";
+			productName = "prueba farmatodoUITests";
+			productReference = 9AD84BAA27839AAF00833BB1 /* prueba farmatodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AD84B8127839AAC00833BB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9AD84B8827839AAC00833BB1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9AD84B9E27839AAF00833BB1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9AD84B8827839AAC00833BB1;
+					};
+					9AD84BA927839AAF00833BB1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9AD84B8827839AAC00833BB1;
+					};
+				};
+			};
+			buildConfigurationList = 9AD84B8427839AAC00833BB1 /* Build configuration list for PBXProject "prueba farmatodo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AD84B8027839AAC00833BB1;
+			productRefGroup = 9AD84B8A27839AAC00833BB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AD84B8827839AAC00833BB1 /* prueba farmatodo */,
+				9AD84B9E27839AAF00833BB1 /* prueba farmatodoTests */,
+				9AD84BA927839AAF00833BB1 /* prueba farmatodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AD84B8727839AAC00833BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD84B9927839AAF00833BB1 /* LaunchScreen.storyboard in Resources */,
+				9AD84B9627839AAF00833BB1 /* Assets.xcassets in Resources */,
+				9AD84BDB278403FC00833BB1 /* HomeView.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD84B9D27839AAF00833BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD84BA827839AAF00833BB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FE6DFA117916E9F736C391B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-prueba farmatodoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74DD24EC4F23442074EE4416 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-prueba farmatodo-prueba farmatodoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AECAFC22D0D006D6A4A67F2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-prueba farmatodo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AD84B8527839AAC00833BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD84B9127839AAC00833BB1 /* ViewController.swift in Sources */,
+				9AD84B8D27839AAC00833BB1 /* AppDelegate.swift in Sources */,
+				9AD84BD02784035F00833BB1 /* HomeLocalDataManager.swift in Sources */,
+				9AD84BEE27849B9700833BB1 /* DatoURL.swift in Sources */,
+				9AD84BE927849B7B00833BB1 /* AnimeURL.swift in Sources */,
+				9AD84B8F27839AAC00833BB1 /* SceneDelegate.swift in Sources */,
+				9AD84BFF2784FE8600833BB1 /* TopViewCell.swift in Sources */,
+				9AD84BD12784035F00833BB1 /* HomeProtocols.swift in Sources */,
+				9AD84BD32784035F00833BB1 /* HomeView.swift in Sources */,
+				9AD84BD42784035F00833BB1 /* HomeRemoteDataManager.swift in Sources */,
+				9AD84C042785021100833BB1 /* HomeHelpers.swift in Sources */,
+				9AD84BCF2784035F00833BB1 /* HomePresenter.swift in Sources */,
+				9AD84BD22784035F00833BB1 /* HomeInteractor.swift in Sources */,
+				9AD84BD52784035F00833BB1 /* HomeWireFrame.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD84B9B27839AAF00833BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD84BA427839AAF00833BB1 /* prueba_farmatodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD84BA627839AAF00833BB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD84BAF27839AAF00833BB1 /* prueba_farmatodoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AD84BA127839AAF00833BB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AD84B8827839AAC00833BB1 /* prueba farmatodo */;
+			targetProxy = 9AD84BA027839AAF00833BB1 /* PBXContainerItemProxy */;
+		};
+		9AD84BAC27839AAF00833BB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AD84B8827839AAC00833BB1 /* prueba farmatodo */;
+			targetProxy = 9AD84BAB27839AAF00833BB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AD84B9727839AAF00833BB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD84B9827839AAF00833BB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AD84BB127839AAF00833BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AD84BB227839AAF00833BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AD84BB427839AAF00833BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 859EFB61CE337CBFF9562CE3 /* Pods-prueba farmatodo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prueba farmatodo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "prueba.prueba-farmatodo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AD84BB527839AAF00833BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4B03D4199D2B052FBC72B5F /* Pods-prueba farmatodo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prueba farmatodo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "prueba.prueba-farmatodo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AD84BB727839AAF00833BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2385C3BB21E09ADEACFD8DF /* Pods-prueba farmatodoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prueba farmatodoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "prueba.prueba-farmatodoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prueba farmatodo.app/prueba farmatodo";
+			};
+			name = Debug;
+		};
+		9AD84BB827839AAF00833BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD25428DA27520B66A6F9BFD /* Pods-prueba farmatodoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prueba farmatodoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "prueba.prueba-farmatodoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prueba farmatodo.app/prueba farmatodo";
+			};
+			name = Release;
+		};
+		9AD84BBA27839AAF00833BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727780679A70B06896C34BA7 /* Pods-prueba farmatodo-prueba farmatodoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prueba farmatodoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "prueba.prueba-farmatodoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "prueba farmatodo";
+			};
+			name = Debug;
+		};
+		9AD84BBB27839AAF00833BB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24EB4D0A2C2551D52281CCFA /* Pods-prueba farmatodo-prueba farmatodoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "prueba farmatodoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "prueba.prueba-farmatodoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "prueba farmatodo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AD84B8427839AAC00833BB1 /* Build configuration list for PBXProject "prueba farmatodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD84BB127839AAF00833BB1 /* Debug */,
+				9AD84BB227839AAF00833BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD84BB327839AAF00833BB1 /* Build configuration list for PBXNativeTarget "prueba farmatodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD84BB427839AAF00833BB1 /* Debug */,
+				9AD84BB527839AAF00833BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD84BB627839AAF00833BB1 /* Build configuration list for PBXNativeTarget "prueba farmatodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD84BB727839AAF00833BB1 /* Debug */,
+				9AD84BB827839AAF00833BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD84BB927839AAF00833BB1 /* Build configuration list for PBXNativeTarget "prueba farmatodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD84BBA27839AAF00833BB1 /* Debug */,
+				9AD84BBB27839AAF00833BB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AD84B8127839AAC00833BB1 /* Project object */;
+}
