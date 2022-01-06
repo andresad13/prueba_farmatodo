@@ -28,6 +28,15 @@
 		9AD84BEE27849B9700833BB1 /* DatoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84BED27849B9700833BB1 /* DatoURL.swift */; };
 		9AD84BFF2784FE8600833BB1 /* TopViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84BFE2784FE8600833BB1 /* TopViewCell.swift */; };
 		9AD84C042785021100833BB1 /* HomeHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84C032785021100833BB1 /* HomeHelpers.swift */; };
+		9AD84C0F27861E2500833BB1 /* SeasonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84C0E27861E2500833BB1 /* SeasonViewCell.swift */; };
+		9AD84C3B2786AD0E00833BB1 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84C342786AD0E00833BB1 /* DetailPresenter.swift */; };
+		9AD84C3C2786AD0E00833BB1 /* DetailLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84C352786AD0E00833BB1 /* DetailLocalDataManager.swift */; };
+		9AD84C3D2786AD0E00833BB1 /* DetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84C362786AD0E00833BB1 /* DetailProtocols.swift */; };
+		9AD84C3E2786AD0E00833BB1 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84C372786AD0E00833BB1 /* DetailInteractor.swift */; };
+		9AD84C3F2786AD0E00833BB1 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84C382786AD0E00833BB1 /* DetailView.swift */; };
+		9AD84C402786AD0E00833BB1 /* DetailRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84C392786AD0E00833BB1 /* DetailRemoteDataManager.swift */; };
+		9AD84C412786AD0E00833BB1 /* DetailWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD84C3A2786AD0E00833BB1 /* DetailWireFrame.swift */; };
+		9AD84C462786AD1D00833BB1 /* DetailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD84C452786AD1D00833BB1 /* DetailView.storyboard */; };
 		E0EB9C0CFDABD6092F9DC486 /* Pods_prueba_farmatodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E0ED4B5FCA0DAEF70B03F1 /* Pods_prueba_farmatodo.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +88,15 @@
 		9AD84BED27849B9700833BB1 /* DatoURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatoURL.swift; sourceTree = "<group>"; };
 		9AD84BFE2784FE8600833BB1 /* TopViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewCell.swift; sourceTree = "<group>"; };
 		9AD84C032785021100833BB1 /* HomeHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHelpers.swift; sourceTree = "<group>"; };
+		9AD84C0E27861E2500833BB1 /* SeasonViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonViewCell.swift; sourceTree = "<group>"; };
+		9AD84C342786AD0E00833BB1 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		9AD84C352786AD0E00833BB1 /* DetailLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailLocalDataManager.swift; sourceTree = "<group>"; };
+		9AD84C362786AD0E00833BB1 /* DetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProtocols.swift; sourceTree = "<group>"; };
+		9AD84C372786AD0E00833BB1 /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		9AD84C382786AD0E00833BB1 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9AD84C392786AD0E00833BB1 /* DetailRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRemoteDataManager.swift; sourceTree = "<group>"; };
+		9AD84C3A2786AD0E00833BB1 /* DetailWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWireFrame.swift; sourceTree = "<group>"; };
+		9AD84C452786AD1D00833BB1 /* DetailView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailView.storyboard; sourceTree = "<group>"; };
 		AD25428DA27520B66A6F9BFD /* Pods-prueba farmatodoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba farmatodoTests.release.xcconfig"; path = "Target Support Files/Pods-prueba farmatodoTests/Pods-prueba farmatodoTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8E0ED4B5FCA0DAEF70B03F1 /* Pods_prueba_farmatodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_prueba_farmatodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2385C3BB21E09ADEACFD8DF /* Pods-prueba farmatodoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prueba farmatodoTests.debug.xcconfig"; path = "Target Support Files/Pods-prueba farmatodoTests/Pods-prueba farmatodoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +169,7 @@
 		9AD84B8B27839AAC00833BB1 /* prueba farmatodo */ = {
 			isa = PBXGroup;
 			children = (
+				9AD84C172786AC2200833BB1 /* DetailView */,
 				9AD84BD9278403CC00833BB1 /* HomeView */,
 				9AD84B8C27839AAC00833BB1 /* AppDelegate.swift */,
 				9AD84B8E27839AAC00833BB1 /* SceneDelegate.swift */,
@@ -195,8 +214,24 @@
 				9AD84BED27849B9700833BB1 /* DatoURL.swift */,
 				9AD84BFE2784FE8600833BB1 /* TopViewCell.swift */,
 				9AD84C032785021100833BB1 /* HomeHelpers.swift */,
+				9AD84C0E27861E2500833BB1 /* SeasonViewCell.swift */,
 			);
 			path = HomeView;
+			sourceTree = "<group>";
+		};
+		9AD84C172786AC2200833BB1 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				9AD84C342786AD0E00833BB1 /* DetailPresenter.swift */,
+				9AD84C352786AD0E00833BB1 /* DetailLocalDataManager.swift */,
+				9AD84C362786AD0E00833BB1 /* DetailProtocols.swift */,
+				9AD84C372786AD0E00833BB1 /* DetailInteractor.swift */,
+				9AD84C382786AD0E00833BB1 /* DetailView.swift */,
+				9AD84C392786AD0E00833BB1 /* DetailRemoteDataManager.swift */,
+				9AD84C3A2786AD0E00833BB1 /* DetailWireFrame.swift */,
+				9AD84C452786AD1D00833BB1 /* DetailView.storyboard */,
+			);
+			path = DetailView;
 			sourceTree = "<group>";
 		};
 		C752B08ED559192BAE9BE67E /* Frameworks */ = {
@@ -317,6 +352,7 @@
 			files = (
 				9AD84B9927839AAF00833BB1 /* LaunchScreen.storyboard in Resources */,
 				9AD84B9627839AAF00833BB1 /* Assets.xcassets in Resources */,
+				9AD84C462786AD1D00833BB1 /* DetailView.storyboard in Resources */,
 				9AD84BDB278403FC00833BB1 /* HomeView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,18 +449,26 @@
 			files = (
 				9AD84B9127839AAC00833BB1 /* ViewController.swift in Sources */,
 				9AD84B8D27839AAC00833BB1 /* AppDelegate.swift in Sources */,
+				9AD84C0F27861E2500833BB1 /* SeasonViewCell.swift in Sources */,
 				9AD84BD02784035F00833BB1 /* HomeLocalDataManager.swift in Sources */,
 				9AD84BEE27849B9700833BB1 /* DatoURL.swift in Sources */,
 				9AD84BE927849B7B00833BB1 /* AnimeURL.swift in Sources */,
 				9AD84B8F27839AAC00833BB1 /* SceneDelegate.swift in Sources */,
+				9AD84C3E2786AD0E00833BB1 /* DetailInteractor.swift in Sources */,
 				9AD84BFF2784FE8600833BB1 /* TopViewCell.swift in Sources */,
 				9AD84BD12784035F00833BB1 /* HomeProtocols.swift in Sources */,
+				9AD84C3C2786AD0E00833BB1 /* DetailLocalDataManager.swift in Sources */,
+				9AD84C3D2786AD0E00833BB1 /* DetailProtocols.swift in Sources */,
+				9AD84C402786AD0E00833BB1 /* DetailRemoteDataManager.swift in Sources */,
 				9AD84BD32784035F00833BB1 /* HomeView.swift in Sources */,
+				9AD84C3F2786AD0E00833BB1 /* DetailView.swift in Sources */,
 				9AD84BD42784035F00833BB1 /* HomeRemoteDataManager.swift in Sources */,
+				9AD84C3B2786AD0E00833BB1 /* DetailPresenter.swift in Sources */,
 				9AD84C042785021100833BB1 /* HomeHelpers.swift in Sources */,
 				9AD84BCF2784035F00833BB1 /* HomePresenter.swift in Sources */,
 				9AD84BD22784035F00833BB1 /* HomeInteractor.swift in Sources */,
 				9AD84BD52784035F00833BB1 /* HomeWireFrame.swift in Sources */,
+				9AD84C412786AD0E00833BB1 /* DetailWireFrame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

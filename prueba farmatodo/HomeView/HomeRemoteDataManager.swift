@@ -11,11 +11,12 @@ import Foundation
 class HomeRemoteDataManager:HomeRemoteDataManagerInputProtocol {
     
     var remoteRequestHandler: HomeRemoteDataManagerOutputProtocol?
+    var remoteRequestHandlerSeason: HomeRemoteDataManagerOutputProtocol?
     
     
     func externalGetDataTop() {
         let session = URLSession.shared
-        var request = URLRequest(url: URL(string: "https://api.jikan.moe/v3/top/anime/1")!)
+        var request = URLRequest(url: URL(string: "https://api.jikan.moe/v3/top/anime/1?order_by=score")!)
         request.httpMethod = "GET"
         request.setValue("application/json; charset=utf8", forHTTPHeaderField: "Content-Type")
         request.setValue("application/x-www-fprm-urlencoded; charset=utf8", forHTTPHeaderField: "Content-Type")
@@ -50,7 +51,7 @@ class HomeRemoteDataManager:HomeRemoteDataManagerInputProtocol {
     
     func externalGetDataSeason() {
         let session = URLSession.shared
-        var request = URLRequest(url: URL(string: "https://api.jikan.moe/v3/top/anime/1")!)
+        var request = URLRequest(url: URL(string: "https://api.jikan.moe/v3/top/anime/1?order_by=score")!)
         request.httpMethod = "GET"
         request.setValue("application/json; charset=utf8", forHTTPHeaderField: "Content-Type")
         request.setValue("application/x-www-fprm-urlencoded; charset=utf8", forHTTPHeaderField: "Content-Type")
@@ -68,7 +69,7 @@ class HomeRemoteDataManager:HomeRemoteDataManagerInputProtocol {
                 let decoder = JSONDecoder()
                 let getURL = try decoder.decode(DatoURL.self, from: data)
                 print(getURL)
-                self.remoteRequestHandler?.RemoteDataManagerCallbackData(with: getURL.self)
+                self.remoteRequestHandlerSeason?.RemoteDataManagerCallbackDataSeason(with: getURL.self)
             }catch{
                 print("nose logro parsear")
             }

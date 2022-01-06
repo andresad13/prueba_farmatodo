@@ -13,5 +13,14 @@ let top: [Animes]
     
     struct Animes : Codable {
         let image_url : String
+        let title : String
+        let type : String
+        let episodes : Int
+        let rank : Int
+        let score : Float
+        let start_date : String
+        let url : String
+        let members: Int
+        
     }
 }

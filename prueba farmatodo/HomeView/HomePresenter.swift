@@ -18,10 +18,38 @@ class HomePresenter  {
 }
 
 extension HomePresenter: HomePresenterProtocol {
-    // TODO: implement presenter methods
+    func searchAnime(receivedData: String, receivedArray: [DatoURL.Animes]) {
+        print(receivedData)
+        
+        var arrayAnimes: [DatoURL.Animes] = []
+        let textFind =  receivedData
+        if textFind == "" {
+            arrayAnimes = receivedArray
+        }else{
+               for index in receivedArray{
+                if index.title.contains(textFind) {
+                    arrayAnimes.append(index)
+                   }
+               }
+        }
+        view!.reloadBySearch(receivedData: arrayAnimes)
+              
+               
+           
+    }
+    
+  
+    
+   
+    
+
+    func showDetailView(with data: DatoURL.Animes) {
+        wireFrame?.presentViewNewDetail(from: view!, withData: data)
+    }
     func viewDidLoad() {
         view?.cargarActivity()
-        interactor?.interactorGetData()
+        interactor?.interactorGetDataTop()
+       // interactor?.interactorGetDataSeason()
     }
 }
 
@@ -30,6 +58,9 @@ extension HomePresenter: HomeInteractorOutputProtocol {
         view?.presenterPushDataView(receiverdData: receiverData)
         //view?.stoptAndHideActivity()
         
+    }
+    func interactorPushDataSeasonPresenter(receiverData: DatoURL) {
+        view?.presenterPushDataViewSeason(receiverdData: receiverData)
     }
 
 }

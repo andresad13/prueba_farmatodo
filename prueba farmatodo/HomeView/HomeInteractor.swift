@@ -9,10 +9,15 @@
 import Foundation
 
 class HomeInteractor: HomeInteractorInputProtocol {
-    func interactorGetData() {
+    func interactorGetDataTop() {
         remoteDatamanager?.externalGetDataTop()
 
     }
+    func interactorGetDataSeason() {
+        remoteDatamanager?.externalGetDataSeason()
+
+    }
+    
     
 
     // MARK: Properties
@@ -30,6 +35,13 @@ extension HomeInteractor: HomeRemoteDataManagerOutputProtocol {
         
      
         presenter?.interactorPushDataPresenter(receiverData: category)
+        presenter?.interactorPushDataSeasonPresenter(receiverData: category)
+        
+    }
+    func RemoteDataManagerCallbackDataSeason(with category: DatoURL) {
+        
+     
+        presenter?.interactorPushDataSeasonPresenter(receiverData: category)
         
     }
 }
