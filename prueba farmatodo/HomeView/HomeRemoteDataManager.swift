@@ -24,8 +24,7 @@ class HomeRemoteDataManager:HomeRemoteDataManagerInputProtocol {
         request.setValue("no-cache", forHTTPHeaderField: "cache-control")
         
         session.dataTask(with: request){(data, response, error) in
-        
-        guard let data = data, error == nil, let respuesta = response as? HTTPURLResponse else {
+                 guard let data = data, error == nil, let respuesta = response as? HTTPURLResponse else {
             print("error en llamado \(error!)")
             return
         }
